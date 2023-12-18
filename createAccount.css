@@ -1,0 +1,80 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    /* background: #6540ca; */
+    min-height: 100vh;
+    place-content: center;
+}
+:root{
+    --black: #000;
+    --green: rgb(38, 145, 38);
+
+}
+.products{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+#underwears{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: px
+    
+
+}
+.pics{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    margin-top: 20px
+    
+}
+img{
+    width: 70%;
+    margin-top: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    margin: 10px;
+}
+.buy{
+    width: 200px;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    margin: 5px;
+    
+}
+    
+.buy-now{
+    width: 70%;
+    height: 30%;
+    margin-top: 5px;
+    background-color: #008000;
+    color: #ffffff;
+    border: none;
+
+}
+.buy-now:hover{
+    cursor: pointer;
+    background-color: var(--green);
+    
+}
+.add{
+    margin: 5px;
+    width: 150px;
+    font-size: small;
+    height: 25%;
+    background: var(--green);
+    border: none;
+}
+
+

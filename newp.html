@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newp.css">
+</head>
+<body>
+    <div class="parent">
+       <div class="formCreateContainer">
+        <h1>create an account</h1>
+        <form action="caeser boutique/caesar.html" autocomplete="on">
+                 <!-- container for name input -->
+            
+          <div class="formName">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Name" autocomplete="name" required>
+          </div>
+            <!-- container for email input -->
+          <div class="formEmail">
+            <label for="UserEmail">Email</label>
+            <input type="email" name="" id="useremail" placeholder="Email" required>
+          </div>
+            <!-- container for password input -->
+         <div class="formPassword">
+            <label for="userPasscode">Password</label>
+            <input type="password" name="" id="userPasscode" placeholder="Password" required>
+         </div>
+         <div class="formPassword">
+            <label for="userPasscode"> Confirm Password</label>
+            <input type="password" name="" id="userconfirmPasscode" placeholder="ConfirmPassword" required>
+         </div>
+
+        <div class="formSubmit">
+            <button type="submit" id="SubmitBtn">Create Account</button>
+        </div>
+        </form>
+    </div>
+        <div class="login">
+            <button id="LOGIN">Log In</button>
+        </div>
+        <!-- login view -->
+    <div class="accountLog">
+        <form action="mailto:ndboy2006@yahoo.com">
+                <h1>Log In to your Account</h1>
+                 <!-- container for name input -->
+            
+          <div class="formName">
+            <label for="name">Your useremail</label>
+            <input type="text" id="name" placeholder="Name ID" autocomplete="name" required>
+          </div>
+               <!-- container for password input -->
+         <div class="formPassword">
+            <label for="userPasscode">PassCord</label>
+            <input type="password" name="" id="userPasscode" placeholder="Password ID" required>
+         </div>
+
+         <!-- <div class="loginsession"> -->
+             <div class="login">
+                <button id="signin" type="submit">Login</button>
+             </div>
+
+             <div class="ForgotPassword">
+              <div class="RECOVERY">
+                <div class="RECOVERYEmail">
+                  <label for="RECOVERYEmail">UserEmail</label>
+                  <input type="email" name="" id="UserEmail" placeholder="YourEmail" required>
+  
+                </div>
+
+                <button id="ForgotPassword"  type="submit">Forgot Password</button>
+              </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <script src="newp.js"></script>
+</body>
+</html>

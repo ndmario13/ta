@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black:#000;
+    --orangeRed:#ff6347;
+    --indianRed: #cd5c5c;
+    --crimson: #dc143c;
+    --Red: #ff0000;
+    --white:#ffffff;
+    --yellowGreen:#228b22;
+    --lightGray:#d3d3d3;
+    --hex: #ff5733;
+    --orange: #ffa500;
+    --blue:#5f9ea0;
+}
+body{
+    min-width: 100%;
+    background-color: var(--Re);
+}
+.container{
+    background-color:var(--white);
+    width: 99%;
+    margin: 5px;
+    padding-right: 3px;
+}
+    
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background:var(--he);
+    align-items: center;
+    height: 20%;
+}
+.logo{
+    width: 2%;
+    height: 100%;
+    margin-top: 7px;
+    margin-left: 3px;
+    
+}
+.navlinks{
+    margin: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.navlinks ul{
+    display: flex;
+    list-style: none;
+}
+.navlinks ul a{
+    padding: 5px;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+.underwears{
+    background-color:var(--black);
+    justify-content: center;
+    text-align: center;
+    color:var(--white);
+    height: 40px;
+    padding: 10px;
+    
+
+}
+.underwears:hover{
+    cursor: pointer;
+    transition: var(--Red);
+}
+    
+.shelve1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 2px;
+    padding: 60px;
+    
+}
+.shelves{
+    padding: 10px;
+
+}
+ .shelves:hover{
+    cursor: pointer;
+    background-color:var(--orange);
+    transition-duration:3s;
+
+} 
+img{
+    height: 200px;
+    width: 150px;
+}
+
+#pri{
+    font-size: 1rem;
+    color: violet;
+    font-style: italic;
+}
+#nam{
+    font-size: small;
+    color: #ffa500;
+}
+#rating{
+    color: var(--orange);
+}
+#Add{
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #ff5733;
+    
+
+}
+#submit{
+    background-color:yellow;
+    border-radius: 5px;
+    padding: 3px;
+    width: 40px;
+    
+}
+#Add:hover{
+    background-color: #ff0000;
+    cursor: crosshair;
+    transform: rotate(1.1);
+    text-transform: lowercase;
+    transition-duration: 10S;
+}
+#submit:hover{
+    background-color: #ff008c;
+}
+/* img:hover{
+    cursor: pointer;
+    background-color: #dc143c;
+} */
+.jackets{
+    text-align: center;
+    background: var(--black);
+    color: #d3d3d3;
+    font-size: large;
+    height: 40px;
+    justify-content: center;
+    
+    
+}
+.ankara{
+    justify-content: center;
+    text-align: center;
+    background-color: var(--black);
+    height: 40px;
+    color: var(--white);
+
+}
+#ank{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.varieties{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.mirror{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} 
+#jack{text-align: center;
+    padding: 10px;
+
+}
+@media screen {min-width:
+    .nav
+        
+        display: flex;
+        justify-content: space-between;
+        background:var(--he);
+        align-items: center;
+        height: 20%;
+    
+}
+/* .mirror:hover{
+    cursor: pointer;
+} */
+
+/* section{
+    margin: 10px;
+    margin-right: 30px;
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+} */
+/* #shopentrance{
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    padding: 30px;
+    border: block;
+    font-weight: 60px;
+    font-style: italic;
+    font-size: larger;
+    margin-bottom: 20px;
+    
+}
+ .shelves:hover{
+    background-color: var(--yellowGreen);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
+}
+.shop #h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.shelves img{
+    margin: 10px;
+    padding: 10px;
+}
+
+.shelves #pri{
+    
+    color: #dc143c;
+}
+#nam{
+    color: aqua;
+}
+#rating{
+    width: 20px;
+}
+#Add{
+    background: #ff0000;
+}
+#submit{
+    background: var(--crimson);
+}
